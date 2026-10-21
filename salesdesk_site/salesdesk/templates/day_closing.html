@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Day Closing · Sales Desk{% endblock %}
+{% block extra_scripts %}
+  <script src="{% static 'js/layout.js' %}"></script>
+  <script src="{% static 'js/day-closing.js' %}"></script>
+  <script>App.start("closing");</script>
+{% endblock %}

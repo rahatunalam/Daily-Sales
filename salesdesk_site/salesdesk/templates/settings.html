@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Settings · Sales Desk{% endblock %}
+{% block extra_scripts %}
+  <script src="{% static 'js/layout.js' %}"></script>
+  <script src="{% static 'js/settings.js' %}"></script>
+  <script>App.start("settings");</script>
+{% endblock %}

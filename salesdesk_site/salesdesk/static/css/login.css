@@ -1,0 +1,6 @@
+/* login */
+.login-page { min-height: 100vh; display: grid; place-items: center; padding: 32px; }
+.login-card { width: 380px; max-width: 100%; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px; }
+.login-card .brand-name { font-size: 20px; font-weight: 700; color: var(--green); }
+.login-card h1 { font-size: 28px; }
+

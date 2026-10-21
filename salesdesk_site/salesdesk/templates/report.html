@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Report · Sales Desk{% endblock %}
+{% block extra_scripts %}
+  <script src="{% static 'js/layout.js' %}"></script>
+  <script src="{% static 'js/report.js' %}"></script>
+  <script>App.start("report");</script>
+{% endblock %}

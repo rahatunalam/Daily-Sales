@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Company Payment · Sales Desk{% endblock %}
+{% block extra_scripts %}
+  <script src="{% static 'js/layout.js' %}"></script>
+  <script src="{% static 'js/company-payment.js' %}"></script>
+  <script>App.start("company");</script>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Daily Sales · Sales Desk{% endblock %}
+{% block extra_scripts %}
+  <script src="{% static 'js/picker.js' %}"></script>
+  <script src="{% static 'js/layout.js' %}"></script>
+  <script src="{% static 'js/daily-sales.js' %}"></script>
+  <script>App.start("daily");</script>
+{% endblock %}

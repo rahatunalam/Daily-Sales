@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sales Desk</title>
+</head>
+<body>
+  <p><a href="/login/">Open Sales Desk</a></p>
+  <script>
+    // signed in already? go to Daily Sales, otherwise to the login page
+    location.replace(localStorage.getItem("token") ? "/daily-sales/" : "/login/");
+  </script>
+</body>
+</html>
